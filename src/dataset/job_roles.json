@@ -1,0 +1,155 @@
+[
+{
+  "role": "machine_learning_engineer",
+  "required_skills": ["python","machine learning","data preprocessing","model deployment"],
+  "optional_skills": ["deep learning","feature engineering","nlp","computer vision"],
+  "tools": ["tensorflow","pytorch","scikit-learn"],
+  "description": "Machine learning engineers design, build, and deploy machine learning systems that can process large volumes of data and make predictions automatically. They work with datasets to train models, evaluate performance, and optimize algorithms for production use. Their responsibilities include building data pipelines, performing feature engineering, training models, and deploying them using scalable systems. They frequently use Python and ML frameworks such as TensorFlow, PyTorch, and scikit-learn to implement machine learning algorithms."
+},
+{
+  "role": "data_engineer",
+  "required_skills": ["python","sql","data pipelines","etl"],
+  "optional_skills": ["spark","big data","data warehousing","stream processing"],
+  "tools": ["airflow","hadoop","kafka"],
+  "description": "Data engineers build and maintain the infrastructure that allows organizations to collect, store, and analyze large volumes of data. They design ETL pipelines, transform raw data into usable formats, and ensure data systems are scalable and reliable. Data engineers work with distributed data systems, manage data warehouses, and optimize data processing workflows."
+},
+{
+  "role": "ai_engineer",
+  "required_skills": ["python","machine learning","deep learning","model deployment"],
+  "optional_skills": ["nlp","computer vision","reinforcement learning"],
+  "tools": ["tensorflow","pytorch","mlflow"],
+  "description": "AI engineers design and implement artificial intelligence systems capable of solving complex problems using machine learning and deep learning techniques. They build models that can recognize patterns, automate decision-making, and improve over time with new data. Their work often involves neural networks, training pipelines, and deploying intelligent systems into real-world applications."
+},
+{
+  "role": "data_analyst",
+  "required_skills": ["sql","data analysis","excel","statistics"],
+  "optional_skills": ["python","data visualization","dashboarding"],
+  "tools": ["tableau","power bi","excel"],
+  "description": "Data analysts collect, clean, and analyze datasets to help organizations make informed business decisions. They interpret data trends, generate reports, and create visual dashboards that communicate insights clearly. Data analysts use tools such as SQL, Excel, and visualization platforms to identify patterns and support strategic decision making."
+},
+{
+  "role": "cloud_engineer",
+  "required_skills": ["cloud computing","linux","networking","infrastructure"],
+  "optional_skills": ["automation","containerization","microservices"],
+  "tools": ["aws","azure","gcp"],
+  "description": "Cloud engineers design and manage cloud-based infrastructure that supports modern applications. They configure scalable environments, manage virtual machines, and ensure reliable deployments using cloud services. Their work involves monitoring systems, optimizing performance, and securing cloud environments."
+},
+{
+  "role": "software_engineer",
+  "required_skills": ["programming","algorithms","data structures","software design"],
+  "optional_skills": ["testing","system design","cloud services"],
+  "tools": ["git","docker","ci/cd"],
+  "description": "Software engineers design, develop, and maintain software systems that power applications and services. They write clean, maintainable code and collaborate with teams to implement new features, fix bugs, and improve system performance. Their work involves problem solving, algorithm design, and software architecture."
+},
+{
+  "role": "mobile_app_developer",
+  "required_skills": ["mobile development","ui design","api integration","programming"],
+  "optional_skills": ["react native","flutter","performance optimization"],
+  "tools": ["android studio","xcode","firebase"],
+  "description": "Mobile app developers build applications that run on smartphones and tablets. They focus on creating intuitive user experiences and optimizing applications for performance and battery usage. Developers design responsive mobile interfaces and integrate APIs to provide dynamic app functionality."
+},
+{
+  "role": "cybersecurity_engineer",
+  "required_skills": ["network security","encryption","risk assessment","security protocols"],
+  "optional_skills": ["ethical hacking","incident response","threat analysis"],
+  "tools": ["wireshark","metasploit","nmap"],
+  "description": "Cybersecurity engineers protect computer systems and networks from cyber threats and unauthorized access. They design security frameworks, monitor vulnerabilities, and implement encryption and authentication systems. Their work involves identifying threats, analyzing security incidents, and strengthening defensive infrastructure."
+},
+{
+  "role": "database_administrator",
+  "required_skills": ["sql","database design","backup management","query optimization"],
+  "optional_skills": ["data modeling","replication","performance tuning"],
+  "tools": ["mysql","postgresql","oracle"],
+  "description": "Database administrators manage and maintain databases that store critical organizational data. They ensure data integrity, security, and performance while handling backups, migrations, and query optimization. DBAs monitor database health and ensure high availability of data services."
+},
+{
+  "role": "system_administrator",
+  "required_skills": ["linux","networking","system monitoring","server management"],
+  "optional_skills": ["automation","scripting","security hardening"],
+  "tools": ["ansible","bash","nagios"],
+  "description": "System administrators manage servers, operating systems, and network infrastructure to ensure smooth operations of IT systems. They install software, configure systems, monitor performance, and troubleshoot issues that affect system stability."
+},
+{
+  "role": "qa_engineer",
+  "required_skills": ["software testing","test cases","bug tracking","automation testing"],
+  "optional_skills": ["performance testing","security testing","api testing"],
+  "tools": ["selenium","cypress","jira"],
+  "description": "QA engineers ensure software quality by designing and executing test cases that validate system functionality. They identify bugs, verify fixes, and work with development teams to improve product stability and performance."
+},
+{
+  "role": "product_manager",
+  "required_skills": ["product strategy","market research","stakeholder communication","roadmap planning"],
+  "optional_skills": ["agile methodology","analytics","ux understanding"],
+  "tools": ["jira","figma","notion"],
+  "description": "Product managers oversee the development of products from concept to launch. They define product strategy, gather customer feedback, and work with engineering teams to prioritize features and improvements."
+},
+{
+  "role": "ui_ux_designer",
+  "required_skills": ["user research","wireframing","prototyping","visual design"],
+  "optional_skills": ["interaction design","usability testing"],
+  "tools": ["figma","sketch","adobe xd"],
+  "description": "UI/UX designers focus on creating intuitive and visually appealing digital experiences. They conduct user research, design wireframes, and build interactive prototypes to ensure products are easy to use and accessible."
+},
+{
+  "role": "business_analyst",
+  "required_skills": ["requirement analysis","data analysis","process modeling","communication"],
+  "optional_skills": ["project management","sql","documentation"],
+  "tools": ["excel","tableau","jira"],
+  "description": "Business analysts bridge the gap between business needs and technical solutions. They gather requirements, analyze workflows, and recommend improvements that enhance operational efficiency."
+},
+{
+  "role": "game_developer",
+  "required_skills": ["game programming","graphics programming","physics engines","problem solving"],
+  "optional_skills": ["multiplayer systems","ai programming"],
+  "tools": ["unity","unreal engine","c#"],
+  "description": "Game developers design and build interactive games for various platforms. They implement gameplay mechanics, design graphics systems, and optimize performance for immersive gaming experiences."
+},
+{
+  "role": "blockchain_developer",
+  "required_skills": ["blockchain","smart contracts","cryptography","distributed systems"],
+  "optional_skills": ["web3","defi","token standards"],
+  "tools": ["solidity","ethereum","truffle"],
+  "description": "Blockchain developers design decentralized applications and smart contracts that run on distributed networks. They work with cryptographic algorithms, consensus protocols, and blockchain infrastructure."
+},
+{
+  "role": "iot_engineer",
+  "required_skills": ["embedded systems","sensor integration","network protocols","firmware development"],
+  "optional_skills": ["edge computing","data streaming"],
+  "tools": ["arduino","raspberry pi","mqtt"],
+  "description": "IoT engineers build connected systems that integrate sensors, devices, and cloud platforms. They design embedded software and communication protocols that allow devices to collect and transmit data."
+},
+{
+  "role": "site_reliability_engineer",
+  "required_skills": ["system reliability","monitoring","automation","scalability"],
+  "optional_skills": ["incident management","distributed systems"],
+  "tools": ["prometheus","grafana","kubernetes"],
+  "description": "Site reliability engineers ensure that large-scale systems remain reliable, scalable, and efficient. They automate infrastructure management, monitor performance metrics, and respond to incidents to maintain service availability."
+},
+{
+  "role": "research_scientist_ai",
+  "required_skills": ["machine learning","deep learning","research methodology","statistics"],
+  "optional_skills": ["reinforcement learning","advanced mathematics"],
+  "tools": ["pytorch","tensorflow","python"],
+  "description": "AI research scientists develop new machine learning algorithms and explore advanced techniques in artificial intelligence. They conduct experiments, publish research findings, and contribute to innovations in AI technology."
+},
+{
+  "role": "technical_writer",
+  "required_skills": ["technical documentation","content writing","research","communication"],
+  "optional_skills": ["api documentation","user manuals"],
+  "tools": ["markdown","confluence","notion"],
+  "description": "Technical writers create clear and structured documentation that explains complex technical systems. They write guides, tutorials, and manuals that help developers and users understand products and software systems."
+},
+{
+  "role": "frontend_developer",
+  "required_skills": ["html","css","javascript","react"],
+  "optional_skills": ["typescript","nextjs","redux","tailwind"],
+  "tools": ["git","webpack","figma","chrome devtools"],
+  "description": "Frontend developers build the user interface of web applications. They focus on creating responsive layouts, interactive elements, and smooth user experiences using HTML, CSS, and JavaScript frameworks such as React or Next.js. Their work involves implementing UI designs, integrating APIs, optimizing performance, and ensuring cross-browser compatibility."
+},
+{
+  "role": "backend_developer",
+  "required_skills": ["nodejs","api development","database","authentication"],
+  "optional_skills": ["nestjs","graphql","microservices","caching"],
+  "tools": ["postman","docker","git","redis"],
+  "description": "Backend developers build and maintain the server side of applications. They design APIs, manage databases, handle authentication, and ensure that systems are secure and scalable. Their work involves business logic implementation, database queries"}
+]
