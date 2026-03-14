@@ -2,8 +2,7 @@ import { Controller, Post, Body, Get, Param, UploadedFile, UseInterceptors, BadR
 import { FileInterceptor } from "@nestjs/platform-express";
 import { ResumeService } from "./resume.service";
 import * as mammoth from "mammoth";
-const pdf = require("pdf-parse");
-
+import pdfParse from "pdf-parse"; 
 @Controller("resume")
 export class ResumeController {
 
@@ -24,33 +23,29 @@ async analyze(
 
   let resumeText = body.resumeText;
 
-  // If resume file is uploaded, extract text
+  // If resume file is uploaded, extract text  
   if (file) {
-
-  const fileType = file.mimetype;
-
-  if (fileType === "application/pdf") {
-    const data = await pdf(file.buffer);
-    resumeText = data.text;
+    const fileType = file.mimetype;
+    if (fileType === "application/pdf") {
+      const data = await pdfParse(file.buffer);  // Now callable [web:3]
+      resumeText = data.text;
+    }
+    else if (
+      fileType ===
+      "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    ) {
+      const result = await mammoth.extractRawText({
+        buffer: file.buffer,
+      });
+      resumeText = result.value;  // Correct usage [web:16]
+    }
+    else {
+      throw new BadRequestException(
+        "Unsupported file type. Upload PDF or DOCX"
+      );
+    }
   }
 
-  else if (
-    fileType ===
-    "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
-  ) {
-    const result = await mammoth.extractRawText({
-      buffer: file.buffer,
-    });
-
-    resumeText = result.value;
-  }
-
-  else {
-    throw new BadRequestException(
-      "Unsupported file type. Upload PDF or DOCX"
-    );
-  }
-}
 
   // Validate resume text
   if (!resumeText) {
